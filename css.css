@@ -1,0 +1,217 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 1000vh;
+}
+
+.wraper{
+    position: relative;
+    width: 600px;
+   display: flex;
+   flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gold;
+    height: 110px;
+    width: 600px;
+    position: fixed;
+    top: 0px;
+}
+
+header i{
+    margin: 20px;
+}
+
+header h1{
+    margin-top: 15px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 550px;
+    height: 50px;
+    background-color: white;
+    border-radius: 17px;
+    justify-content:space-between;
+    top:85px;
+    box-shadow: 0px 1px gainsboro;
+    align-self: center;
+}
+
+.search *{
+    color: rgba(0,0,0,0.3);
+    margin:20px;
+}
+
+.main{
+    margin: 160px 10px 40px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.main__contents{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.main__cover{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.main__book{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main__book *{
+    margin: 3px 1px;
+}
+
+.book__title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.book__author{
+    color: rgba(0,0,0,0.5);
+}
+
+.book__star{
+    color: gold;
+}
+
+.book__star :last-child{
+    color: gainsboro;
+}
+
+.book__genre{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book__genre div{
+    margin: 10px;  
+    background-color: rgba(0,0,0,0.05);
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.book__btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns__bookmark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+    background-color: gold;
+}
+
+.btns__book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height:40px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.recommendation{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+.recommendation__title{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.recommendation__list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.recommendation__cover{
+    width: 100px;
+    height: 154px;
+    border-radius: 10px;
+}
+
+.recommendation__stars{
+    color: gold;
+}
+
+.recommendation__stars :last-child{
+    color: gainsboro;
+}
+
+footer{
+    display: flex;
+    margin: 20px 10px 20px 10px;
+    flex-direction: column;
+}
+
+.popular_authors{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.author{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.author__photo{
+    width: 150px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.author__text{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.author__text *{
+    margin: 7px 0px 7px 0px;
+}
+
+.author__name{
+    width: 270px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.author__explanation{
+    width: 270px;
+    color: rgba(0,0,0,0.5);
+}
